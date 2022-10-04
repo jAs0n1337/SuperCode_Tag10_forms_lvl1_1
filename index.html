@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lvl_1_1_forms</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <form>
+        <label class="margin__between"> Name <span>*</span> <br> <input type="text" value="Vorname" required> <input
+                type="text" value="Nachname" required></label>
+
+        <label class="margin__between"> E-Mail <span>*</span> <br> <input type="email" required></label>
+
+        <label for="Thema">Thema</label>
+        <select class="margin__between" id="thema">
+            <option value="general">General</option>
+            <option value="advertise">Advertise</option>
+            <option value="partnership">Partnership</option>
+        </select>
+
+        <p><label for="nachricht">Nachricht <span>*</span></label></p>
+        <textarea class="margin__between" id="nachricht" cols="30" rows="10" required></textarea>
+
+        <input type="submit" value="Submit" />
+
+    </form>
+</body>
+
+</html>
